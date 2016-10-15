@@ -1,7 +1,8 @@
 {
     "name": "ravuthz/phalcon_3_blog1",
     "require": {
-
+        "windwalker/renderer": "2.*",
+        "illuminate/view": "4.*"
     },
     "authors": [
         {

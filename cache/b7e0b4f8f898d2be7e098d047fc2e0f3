@@ -1,0 +1,11 @@
+<?php $__env->startSection('title', 'Blade Title'); ?>
+
+<?php $__env->startSection('sidebar'); ?>
+    @parent
+    <p><?php echo $header; ?></p>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+    <p><?php echo $message; ?></p>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.blade', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
