@@ -7,7 +7,6 @@ define('BASE_PATH', dirname(__DIR__));
 define('APP_PATH', BASE_PATH . '/app');
 
 try {
-
     /**
      * The FactoryDefault Dependency Injector automatically registers
      * the services that provide a full stack framework.
@@ -28,6 +27,11 @@ try {
      * Include Autoloader
      */
     include APP_PATH . '/config/loader.php';
+
+    /**
+     * Composer Autoloader
+     */
+    include BASE_PATH . '/vendor/autoload.php';
 
     /**
      * Handle the request

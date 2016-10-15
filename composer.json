@@ -1,0 +1,12 @@
+{
+    "name": "ravuthz/phalcon_3_blog1",
+    "require": {
+
+    },
+    "authors": [
+        {
+            "name": "ravuthz",
+            "email": "ravuthz@gmail.com"
+        }
+    ]
+}
